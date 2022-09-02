@@ -1,0 +1,66 @@
+/* container 박스 중앙 정렬 */
+.container{
+    width: 600px;
+    height: 80px;
+    margin:0 auto;
+    margin-top: 85px;
+    margin-right: 435px;
+}
+/* animal 알아서 꾸밀 것 (각 동물들 박스 별로 border에 경계 줄것)*/
+.theme{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+
+}
+
+
+.animal{
+    width: 30%;
+    height: 80px;
+    float: left;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+    
+/* 독립된 특징 하나 이상 넣기 */
+#dog{
+    background: rgba(165, 99, 42, 0.592);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    font: italic;
+}
+#dog:hover{
+    text-decoration: underline;
+    color:white;
+    background-color: black;
+    
+}
+#cat:hover{
+    text-decoration: underline;
+    color:white;
+    background-color: black
+}
+#pokemon:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+#cat{
+    background: rgba(128, 128, 128, 0.927);
+    border-right: 2px solid black;
+    font: italic;
+
+}
+#pokemon{
+
+    background: rgba(0, 182, 255, 0.644);
+    border-right: 2px solid black;
+    font: italic;
+
+}
